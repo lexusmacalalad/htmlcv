@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <h1>Get in touch with me!</h1>
+    <h3>0450017412<h3>
+    <p>lexus.macalalad@gmail.com</p>
+    <a href="https://www.linkedin.com/in/lexus-macalalad-a35a65209/" target="_blank">linkedin</a><br><br>
+    <hr>
+    <h1>Contact Me!</h1>
+    <!-- action: where the website will take the user to after hitting the submit button after filling out the form. In this case, it will direct them to our email by adding the mailto:lexus.macalalad@gmail.com attribute -->
+    <!-- enctype="text/plain" converts the text given to us by the user into plain, readable text, in this case, we can see what exact text the user inputted -->
+    <form class="" action="mailto:lexus.macalalad@gmail.com" method="post" enctype="text/plain">
+      <label>Your Name:</label>
+      <!-- The name attribute: name="Your Name:" helps us determine as to what information the user inputted once they have submitted the form. In this case, the user's name. -->
+      <input type="text" name="Your Name" value=""><br>
+      <label>Your Email:</label>
+      <!-- Same as above, it will tell us what the user's email is so we can contact them in the future -->
+      <!-- type="email" gives us the attribute of this input for email, meaning that it will give us the basic validations of an email. For example, if the user does not include the symbol @, it will notify them that what they are inputting is not a valid email address -->
+      <input type="email" name="Your Email" value=""><br>
+      <label>Your Message:</label><br>
+      <textarea name="Your Message" rows="8" cols="29"></textarea><br>
+      <!-- By the users hitting submit with the current form code written above, it will take them straight to their email with the prefilled information that they inputted -->
+      <input type="Submit" name="">
+    </form>
+  </body>
+</html>
